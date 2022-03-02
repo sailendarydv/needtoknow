@@ -43,7 +43,7 @@
 
 - unpause/restart all paused specific container
     ```
-        docker pause|restart $(docker ps -q)
+        docker unpause|restart $(docker ps -q)
     ```  
 
 - start all stopped specific container
